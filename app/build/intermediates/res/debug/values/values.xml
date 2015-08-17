@@ -19,7 +19,7 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <!-- From: file:/E:/workspace/SpriteAnimotion/app/src/main/res/values/color.xml -->
     <eat-comment/>
-    <color name="accent">#CDDC39</color>
+    <color name="accent">#9c27b0</color>
     <!-- From: file:/E:/workspace/SpriteAnimotion/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
