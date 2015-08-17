@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_view_height"
+    android:background="@color/primary_dark"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/nav_image_view_height"
+        android:layout_height="@dimen/nav_image_view_height"
+        android:src="@mipmap/bilibili_test"
+        android:layout_marginLeft="@dimen/nav_margin_top_15"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小玩纸"
+        android:layout_marginTop="@dimen/nav_margin_top_15"
+        android:layout_marginLeft="@dimen/nav_margin_top_15"
+        android:textColor="#fff"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="硬币:122.3"
+        android:layout_marginTop="@dimen/nav_margin_top_15"
+        android:layout_marginLeft="@dimen/nav_margin_top_15"
+        android:textColor="#fff"
+        />
+
+</LinearLayout><!-- From: file:/E:/workspace/SpriteAnimotion/app/src/main/res/layout/nav_header.xml -->

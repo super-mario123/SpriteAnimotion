@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/activity_detail_linear"
+    android:background="@color/accent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin_double_double"
+    android:paddingLeft="@dimen/activity_horizontal_margin_half"
+    android:paddingRight="@dimen/activity_horizontal_margin_half"
+    android:paddingTop="@dimen/activity_vertical_margin_half"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="导演："
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/activity_detail_director"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="48dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="主演："
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/activity_detail_actor"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="48dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="电影类型："
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/activity_detail_type"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="48dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="电影年份："
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/activity_detail_year"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_detail_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/activity_detail_test"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/activity_detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一部非常有意思的电影"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout><!-- From: file:/E:/workspace/SpriteAnimotion/app/src/main/res/layout/activity_detail_part.xml -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="4dp"
+    app:elevation="5dp"
+    android:clickable="true"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_header_view_height"
+        >
+
+        <ImageView
+            android:id="@+id/item_movie_cover"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/nav_header_view_height"
+            android:src="@mipmap/bilibili_test"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/item_movie_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingBottom="8dp"
+            android:layout_gravity="bottom"
+            android:background="#AA000000"
+            android:text="Bilibili"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+    </FrameLayout>
+</android.support.v7.widget.CardView><!-- From: file:/E:/workspace/SpriteAnimotion/app/src/main/res/layout/item_top_movie.xml -->

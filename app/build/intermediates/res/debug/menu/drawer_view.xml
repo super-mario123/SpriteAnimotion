@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="首页" />
+
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@mipmap/ic_file_download_black_24dp"
+            android:title="离线管理" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_collect"
+            android:icon="@mipmap/ic_star_black_24dp"
+            android:title="我的收藏" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@mipmap/ic_history_black_24dp"
+            android:title="历史记录" />
+
+        <item
+            android:id="@+id/nav_foucs"
+            android:icon="@mipmap/ic_people_black_24dp"
+            android:title="关注的人" />
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@mipmap/ic_account_balance_wallet_black_24dp"
+            android:title="消费记录" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="设置" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@mipmap/ic_help_black_24dp"
+            android:title="帮助与反馈" />
+
+    </group>
+</menu><!-- From: file:/E:/workspace/SpriteAnimotion/app/src/main/res/menu/drawer_view.xml -->
