@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/activity_welcome_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/entrance1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="@string/Copyright"
+        />
+
+    <TextView
+        android:id="@+id/activity_tv_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:text="@string/pass"
+        />
+
+</RelativeLayout>
