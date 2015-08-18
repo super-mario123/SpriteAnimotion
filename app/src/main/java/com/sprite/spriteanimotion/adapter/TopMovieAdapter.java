@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.sprite.spriteanimotion.R;
 import com.sprite.spriteanimotion.activity.MovieDetailActivity;
 import com.sprite.spriteanimotion.model.Movie;
@@ -72,7 +73,7 @@ public class TopMovieAdapter extends RecyclerView.Adapter<TopMovieAdapter.MovieV
         final Movie movie = mMovieList.get(i);
         movieViewHolder.movieTitle.setText(movie.getTitle());
 
-        Picasso.with(mContext).load(movie.getImages().getLarge()).into(movieViewHolder.movieCover);
+        Glide.with(mContext).load(movie.getImages().getLarge()).into(movieViewHolder.movieCover);
 
         movieViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -21,6 +21,8 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import android.widget.Toast;
+
+import com.bumptech.glide.Glide;
 import com.sprite.spriteanimotion.R;
 import com.sprite.spriteanimotion.db.MovieDB;
 import com.sprite.spriteanimotion.model.Movie;
@@ -88,7 +90,7 @@ public class MovieDetailActivity extends AppCompatActivity implements ScrollView
             public void onDataFinish(Object data) {
                 movie = (Movie) data;
                 if (movie != null) {
-                    Picasso.with(MovieDetailActivity.this).load(movie.getImages().getLarge()).into(mMovieCover);
+                    Glide.with(MovieDetailActivity.this).load(movie.getImages().getLarge()).into(mMovieCover);
                     mMovieTitle.setText(movie.getTitle());
                     mMovieDescription.setText(movie.getSummary());
                     String types = "";

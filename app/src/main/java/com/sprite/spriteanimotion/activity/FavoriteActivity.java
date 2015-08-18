@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
-import android.util.TypedValue;
 import android.view.View;
 
 import com.sprite.spriteanimotion.R;
@@ -69,7 +68,7 @@ public class FavoriteActivity extends AppCompatActivity {
     }
 
     public void initRefreshLayout(){
-        mRefreshLayout.setColorSchemeColors(R.color.primary_dark,R.color.primary);
+        mRefreshLayout.setColorSchemeColors(R.color.primary_dark, R.color.primary);
         mRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
