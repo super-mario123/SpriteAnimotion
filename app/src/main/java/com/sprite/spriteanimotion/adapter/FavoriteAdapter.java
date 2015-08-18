@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.sprite.spriteanimotion.R;
 import com.sprite.spriteanimotion.activity.MovieDetailActivity;
 import com.sprite.spriteanimotion.model.Movie;
@@ -64,7 +65,7 @@ public class FavoriteAdapter extends RecyclerView.Adapter<FavoriteAdapter.Favori
             public void onDataFinish(Object data) {
                 Movie movie1 = (Movie) data;
                 if (movie1 != null) {
-                    Picasso.with(mContext).load(movie1.getImages().getSmall()).into(holder.movieCover);
+                    Glide.with(mContext).load(movie1.getImages().getSmall()).into(holder.movieCover);
                 }
             }
         });

@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\dings\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.1\86b122e640af09b0723e1fa44083c354ba6d9089\glide-3.6.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="E:\workspace\SpriteAnimotion\app\build\intermediates\pre-dexed\debug\glide-3.6.1-63da966111ea14f2e06a507ded9797b36b303cbb.jar" />
+    </item>
+    <item
         jar="E:\workspace\SpriteAnimotion\app\libs\activeandroid-3.1-beta.jar"
         jumboMode="false"
         revision="22.0.1"
