@@ -114,7 +114,6 @@
         android:layout_height="wrap_content"
         android:text="这是一部非常有意思的电影"
         android:textColor="@color/white"
-        android:textStyle="bold"
         />
 
 

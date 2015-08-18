@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
+import android.util.TypedValue;
 import android.view.View;
 
 import com.sprite.spriteanimotion.R;
@@ -78,6 +79,10 @@ public class FavoriteActivity extends AppCompatActivity {
                 mRefreshLayout.setRefreshing(false);
             }
         });
+        mRefreshLayout.setProgressViewOffset(false, 0,
+                (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 24,
+                        getResources().getDisplayMetrics()));
+        mRefreshLayout.setRefreshing(true);
     }
 
     @Override
