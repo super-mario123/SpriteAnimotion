@@ -20,4 +20,5 @@
     <string name="item_favorite_title">电影标题</string>
     <string name="item_favorite_original_title">电影原名</string>
     <string name="empty_text_view">再怎么找也没有了！！</string>
+    <string name="menu_delete">Delete</string>
 </resources>

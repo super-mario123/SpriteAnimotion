@@ -14,12 +14,7 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="22sp"
-        android:text="@string/empty_text_view"
-        />
+
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/fav_swipe_layout"
         android:layout_width="match_parent"
@@ -37,6 +32,13 @@
 
     </android.support.v4.widget.SwipeRefreshLayout>
 
-
+    <TextView
+        android:id="@+id/fav_empty_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="@string/empty_text_view"
+        android:visibility="gone"
+        />
 
 </FrameLayout><!-- From: file:/E:/workspace/SpriteAnimotion/app/src/main/res/layout/activity_favorite.xml -->

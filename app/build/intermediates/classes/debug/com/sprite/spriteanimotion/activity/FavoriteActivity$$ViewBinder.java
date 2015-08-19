@@ -14,11 +14,14 @@ public class FavoriteActivity$$ViewBinder<T extends com.sprite.spriteanimotion.a
     target.mRecyclerView = finder.castView(view, 2131492983, "field 'mRecyclerView'");
     view = finder.findRequiredView(source, 2131492981, "field 'mToolbar'");
     target.mToolbar = finder.castView(view, 2131492981, "field 'mToolbar'");
+    view = finder.findRequiredView(source, 2131492984, "field 'mEmptyView'");
+    target.mEmptyView = finder.castView(view, 2131492984, "field 'mEmptyView'");
   }
 
   @Override public void unbind(T target) {
     target.mRefreshLayout = null;
     target.mRecyclerView = null;
     target.mToolbar = null;
+    target.mEmptyView = null;
   }
 }

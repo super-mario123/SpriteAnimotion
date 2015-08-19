@@ -633,6 +633,7 @@
     <string name="item_favorite_original_title">电影原名</string>
     <string name="item_favorite_title">电影标题</string>
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis nunc massa, quis suscipit orci mattis a. Nulla rutrum fringilla finibus. Morbi ac dui in lacus finibus hendrerit. Ut vestibulum. Nulla rutrum fringilla finibus. Morbi ac dui in lacus finibus hendrerit. Ut vestibulum. Nulla rutrum fringilla finibus. Morbi ac dui in lacus finibus hendrerit. Ut vestibulum, Nulla rutrum fringilla finibus. Morbi ac dui in lacus finibus hendrerit. Ut vestibulum, Morbi ac dui in lacus finibus hendrerit. Ut vestibulum, Nulla rutrum fringilla finibus. Morbi ac dui in lacus finibus hendrerit. Ut vestibulum, Ut vestibulum, Nulla rutrum fringilla finibus. Morbi ac dui in lacus finibus hendrerit. Ut vestibulum, Morbi ac dui in lacus finibus hendrerit. Ut vestibulum, Nulla rutrum fringilla finibus. Morbi ac dui in lacus finibus hendrerit. Ut vestibulum</string>
+    <string name="menu_delete">Delete</string>
     <string name="pass"><![CDATA[跳过>]]></string>
     <!-- From: file:/E:/workspace/SpriteAnimotion/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
